@@ -11,10 +11,10 @@ const App = () => {
       <Route exact path="/">
         <Home />
       </Route>
-      <Route path="/Product">
+      <Route path="/product">
         <Products />
       </Route>
-      <Route>
+      <Route path="/addProduct">
         <AddProduct />
       </Route>
     </React.Fragment>
