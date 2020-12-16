@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
 ul {
   list-style-type: none;
 }
@@ -8,14 +10,35 @@ li {
   padding: 30px;
 }
 
+#nav-link-one {
+  font-family: "Kalam", cursive;
+  font-size: 30px;
+}
+
 #pictures {
   width: 300px;
-  display: inline;
 }
 
 #photoContainer {
-  width: 300px;
+  /* background-color: blue; */
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  border-color: gray;
+}
+
+#pictures-name {
+  text-align: center;
+}
+
+#pictures-price {
+  text-align: center;
+}
+
+#container2 {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  justify-content: space-evenly;
 }

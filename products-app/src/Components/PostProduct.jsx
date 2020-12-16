@@ -7,8 +7,8 @@ const PostProduct = (props) => {
           <React.Fragment>
           <div id="photoContainer" key={item.id}>
              <img id="pictures"alt="" src={item.imgURL}/> 
-             <div>{item.name}</div>
-             <div>${item.price}</div>
+             <div id="pictures-name">{item.name}</div>
+             <div id="pictures-price">${item.price}</div>
           </div>  
           </React.Fragment>    
       )
@@ -16,11 +16,8 @@ const PostProduct = (props) => {
     console.log(data)
 
     return (
-        <div>
-            <div>
-            {data}
-
-            </div>
+        <div id="container2">
+            {data}      
         </div>
     );
 };
