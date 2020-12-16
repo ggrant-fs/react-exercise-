@@ -7,3 +7,15 @@ li {
   color: black;
   padding: 30px;
 }
+
+#pictures {
+  width: 300px;
+  display: inline;
+}
+
+#photoContainer {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
