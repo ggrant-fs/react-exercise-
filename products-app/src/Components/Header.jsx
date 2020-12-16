@@ -7,6 +7,7 @@ const Header = () => {
            <header>
              <Nav/>
            </header>
+           <hr/>
        </React.Fragment>
     );
 };

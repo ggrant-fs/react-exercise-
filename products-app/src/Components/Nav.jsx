@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 const Nav = () => {
     return (
         <React.Fragment>
+            {/* need to do individual padding for eack li */}
             <div>
                 <nav>
                    <ul>
