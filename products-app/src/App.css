@@ -1,18 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
 
 ul {
+  margin:0;
   list-style-type: none;
 }
 
 li {
   display: inline-block;
   color: black;
-  padding: 30px;
+  padding: 20px;
 }
 
 #nav-link-one {
   font-family: "Kalam", cursive;
-  font-size: 30px;
+  font-size: 34px;
+  margin-left: 40;
 }
 
 #pictures {
@@ -26,7 +28,10 @@ li {
   padding-right: 25px;
   padding-top: 20px;
   margin-bottom: 20px;
-  border-color: gray;
+  border-width:30px ;
+  border-color: blue;
+  
+  
 }
 
 #pictures-name {
@@ -41,4 +46,46 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  
+  
+}
+
+#deatil-container{
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+}
+
+#detail-image{
+  width: 500px;
+}
+
+#detail-title{
+  font-size: 65px;
+  margin-left: 40px;
+}
+#detail-price{
+  font-size:28px;
+  margin-left: 40px;
+  margin-top:20px
+}
+
+#detail-description{
+  width:380px;
+  margin-left: 40px;
+  margin-top:20px
+}
+
+#search-div{
+  display: flex;
+  justify-content: center;
+  height:40px;
+  margin-top:50px ;
+  margin-bottom:50px;
+}
+ 
+#search-input{
+  border-width: 1px;
+  border-color:#DDDDDD;
+  width: 800px;
 }
